@@ -19,3 +19,4 @@ int main(){
 			delay_ms(DELAY);											// задержка
 		}
 }
+
