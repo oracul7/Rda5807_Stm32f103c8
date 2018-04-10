@@ -20,4 +20,3 @@
 void gpio_ini(void);
 
 #endif // __MCU_INI_H
-

@@ -17,4 +17,3 @@ void gpio_ini(void)
 
   GPIO_Init(PORTC, &GPIO_InitStructure);
 }
-

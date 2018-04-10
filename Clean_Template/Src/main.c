@@ -10,6 +10,7 @@ int main(){
                 
 		SysTick_Config(SystemCoreClock/1000);		// Инициализируем системный таймер 1ms 
 		gpio_ini();															// Инициализируем порты ввода/вывода
+		LED_OFF;																// выключаем светодиод
 	
 		while(1)
     {
@@ -19,4 +20,3 @@ int main(){
 			delay_ms(DELAY);											// задержка
 		}
 }
-

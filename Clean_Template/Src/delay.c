@@ -25,4 +25,3 @@ void delay_ms(uint16_t delay_temp)
 	
 	while(delay_count){}											// Выполняем пока значение не равно 0
 }
-
