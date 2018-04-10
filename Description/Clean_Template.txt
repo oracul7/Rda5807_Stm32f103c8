@@ -1,0 +1,57 @@
+Создадим проект Keil
+со структурой как в STM32CubeMX
+
+1. Создаём папку с именем проекта
+2. в этой папке создаём следующие папки:
+- Drivers
+- Inc
+- Src
+- MDK-ARM
+
+3. Скачиваем файл en.stsw-stm32054.zip
+с сайта http://www.st.com 
+http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32-standard-peripheral-libraries/stsw-stm32054.html
+
+4. В папке Drivers создаём папку CMSIS
+
+5. в этой папке создаём следующие папки:
+- Device
+- Include
+- Source
+
+6. в папке Device создаём папку ST
+
+7. в папке ST создаём папку STM32F10x
+
+8. в этой папке создаём следующие папки:
+- Include
+- Source
+
+9. в папку Include копируем следующие файлы:
+- stm32f10x.h
+- system_stm32f10x.h
+
+10. в папке Source создаём папку Templates
+
+11. в папку Templates копируем следующие файлы:
+- system_stm32f10x.c
+- папку arm
+- папку gcc
+- папку iar
+
+12. в папку (\Drivers\CMSIS\)Include копируем следующие файлы:
+- core_cm3.h
+
+13. в папку (\Drivers\CMSIS\)Source копируем следующие файлы:
+- core_cm3.c
+
+14. в папке Drivers создаём папку StdPeriph
+
+15. в папку StdPeriph копируем следующие папки:
+- inc
+- src
+
+16. Запускаем Keil
+
+17. Создаём проект
+
