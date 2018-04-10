@@ -16,3 +16,4 @@
 #define LED_OFF		GPIO_ResetBits(PORTC, LED);		// Сбрасываем лог 1(т.е. 0в) на выводе
 
 #endif // __MAIN_H
+
